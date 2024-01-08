@@ -7,7 +7,7 @@ Paper link: [to be added]
 To install the relevant libraries, you can run in your terminal:
 
 ```html
-!pip install matplotlib numpy scipy ipywidgets prettytable
+pip install netCDF4 numpy matplotlib scipy geopy cfgrib xarray ecmwflibs
 ```
 
 ## Usage
