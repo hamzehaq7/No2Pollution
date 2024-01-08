@@ -11,8 +11,9 @@ pip install netCDF4 numpy matplotlib scipy geopy cfgrib xarray ecmwflibs
 ```
 
 ## Usage
-* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">paper_graphs.py</kbd> contains the code used to plot the figures found in the paper
-* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">SpaceSimulator.py</kbd> contains a code that performs the Link Budget Analysis calculation based on parameters you input. 
+* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">daily_analysis.py</kbd> contains the code used to analyze NO2 concentrations on Aug. 1, 2023 as well as the calculation of emissions (1) without wind, (2) with constant wind, and (3) with variable wind (obtained from ADS)
+* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">weekly_analysis.py</kbd> contains the code used to analyze NO2 concentrations on June 1st, 2023, 00:00 to June 7th, 2023, 23:59
+
 
 ## Citation
 
