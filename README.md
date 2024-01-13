@@ -11,14 +11,12 @@ pip install netCDF4 numpy matplotlib scipy geopy cfgrib xarray ecmwflibs
 ```
 
 ## Usage
-* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">daily_analysis.py</kbd> contains the code used to analyze NO2 concentrations on Aug. 1, 2023 as well as the calculation of emissions (1) without wind, (2) with constant wind, and (3) with variable wind (obtained from ADS)
-* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">weekly_analysis.py</kbd> contains the code used to analyze NO2 concentrations on June 1st, 2023, 00:00 to June 7th, 2023, 23:59
+* <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">no2pollution.py</kbd> contains the code used to analyze NO2 concentrations for a whole week (June 1st-7th, 2023) as well as the calculation of emissions (1) without wind, (2) with constant wind, and (3) with variable wind (obtained from ADS)
 * <kbd style="background-color: #f0f0f0; padding: 5px; border-radius: 5px;">SatEmissionsSim.py</kbd> contains the GUI that allows users to enter the desired set of coordinates for analysis. To use the simulator, you need to input 2 different datasets, referred to as variables in the code: _windpath_ and _copernicuspath_.
 
    _windpath_ is the path associated with the _.grib_ file of the dataset obtained from the Copernicus Climate Data Store: https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts?tab=form. There is _windy.grib_ file attached, might be of use..
 
    _copernicuspath_ is the path associated with the _.nc_ file of the dataset obtained from the Sentinel-5P Satellite using Copernicus Browser: https://dataspace.copernicus.eu/browser/?zoom=7&lat=45.83645&lng=10.74463&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE. 
-* * code used to sketch the plots for a analyze NO2 concentrations on June 1st, 2023, 00:00 to June 7th, 2023, 23:59
 
 ## Citation
 
