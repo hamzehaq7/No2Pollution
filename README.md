@@ -1,5 +1,5 @@
 # No2Pollution
-This repository is linked to our conference paper titled "No2Pollution: Calculation of NO2 concentrations & emissions via Level-2 Satellite Imagery"
+This repository is linked to our conference paper titled "No2Pollution: A Guide to Analyze Air Quality via Level-2 Satellite Imagery"
 
 Paper link: [to be added]
 
@@ -23,12 +23,12 @@ pip install netCDF4 numpy matplotlib scipy geopy cfgrib xarray ecmwflibs
 If you find this project helpful or use it in your research, please consider citing it:
 
 ```html
-@inproceedings{No2Pollution: Calculation of NO2 concentrations & emissions via Level-2 Satellite Imagery,
-  author = {Abdulrahman Hammed, Adil Mahroof, Mohammed Alnuaimi, and Hamzeh Abu Qamar},
+@inproceedings{No2Pollution: A Guide to Analyze Air Quality via Level-2 Satellite Imagery,
+  author = {Abdulrahman Hameed, Adil Mahroof, Mohammed Alnuaimi, Areej Alamin, and Hamzeh Abu Qamar},
   year = {2024},
   link = {https://github.com/hamzehaq7/No2Pollution}
 }
 ```
 
 ## Acknowledgments
-This work is supported by..
+This work is a student effort. We were worked on the project at a hackathon and decided that the results were good enough to contribute & publish, wish us luck!
